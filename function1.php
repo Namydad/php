@@ -33,6 +33,16 @@
                 echo "$sum";
                 return $sum;
             }
+            function megaCalc($s1, $s2, $o){
+                switch($o){
+                    case "+": $sum1 = $s1 + $s2; break;
+                    case "-": $sum1 = $s1 - $s2; break;
+                    case "*": $sum1 = $s1 * $s2; break;
+                    case "/": $sum1 = $s1 / $s2; break;
+                    case "%": $sum1 = $s1 % $s2; break;                
+                }
+            }
+    
         ?>	
 </form>
 </body>
