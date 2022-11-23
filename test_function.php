@@ -19,6 +19,8 @@
             require_once "function1.php";
             showCompany();
             showProduct("MegaAdder");
+            showVersion("1.0", "23-Nov-2022");
+            megaAdder(20,30);
         ?>	
 </form>
 </body>

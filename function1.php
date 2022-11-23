@@ -28,6 +28,11 @@
                 echo "<em> die $version vom $datum<em>";
                 echo "</div>";
             }
+            function megaAdder($summand_1, $summand_2){
+                $sum = $summand_1 + $summand_2;
+                echo "$sum";
+                return $sum;
+            }
         ?>	
 </form>
 </body>
