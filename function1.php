@@ -33,16 +33,29 @@
                 echo "$sum";
                 return $sum;
             }
-            function megaCalc($s1, $s2, $o){
-                switch($o){
+            /*function megaCalc($s1, $s2, $op) {
+                switch($op){
                     case "+": $sum1 = $s1 + $s2; break;
                     case "-": $sum1 = $s1 - $s2; break;
                     case "*": $sum1 = $s1 * $s2; break;
                     case "/": $sum1 = $s1 / $s2; break;
                     case "%": $sum1 = $s1 % $s2; break;                
                 }
-            }
-    
+                return $sum1;
+                    echo "$sum1";
+            } */
+            function megaCalc($op_1, $op_2, $op) {
+                switch($op) {
+                    case "+": $erg = $op_1 + $op_2; break;
+                    case "-": $erg = $op_1 - $op_2; break;
+                    case "*": $erg = $op_1 * $op_2; break;
+                    case "/": $erg = $op_1 / $op_2; break;
+                    case "%": $erg = $op_1 % $op_2; break;
+                }
+                echo "<p>";
+                echo "$op_1 $op $op_2 = $erg";
+                echo "</p>";
+            }            
         ?>	
 </form>
 </body>
