@@ -1,0 +1,12 @@
+{
+    "css.customData": [
+        "\"doki.wallpaper.path\": \"C:\\\\Users\\\\alex\\\\Downloads\\\\ishtar.png\","
+    ],
+    "doki.background.path": "C:\\Users\\tobia\\Downloads\\where.gif",
+    "doki.background.anchor": "\"doki.background.anchor\": \"center\",",
+    "doki.statusbar.name": "Namydad",
+    "doki.background.enabled": true,
+    "doki.wallpaper.path": "C:\\Users\\tobia\\Downloads\\initialda.png",
+    "doki.wallpaper.enabled": true,
+    "doki.sticker.css": "z-index:100;background-position:100% 97%"
+}
