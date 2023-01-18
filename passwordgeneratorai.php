@@ -6,7 +6,7 @@
 <body>
     <h1>Password Generator</h1>
 
-    <?
+    <?php
     function generatePassword($str) {
         // Check if the string is less than 4 words or has no length
         if (str_word_count($str) < 4 || strlen($str) == 0) {
@@ -28,7 +28,7 @@
       // Example usage
       $str = "Hello World This is a password generator function in PHP";
       $password = generatePassword($str);
-      echo $password; // Output: HWTipagfiP
+      echo "<div>Here is your new password: $password </div"; // Output: HWTipagfiP
     ?>
 
 </body>
