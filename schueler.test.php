@@ -18,9 +18,11 @@
         <?php
         require_once "schueler.php";
 
-        $s1 = new schueler("Furkan", "Ates", "2BKI21", 2);
+        $s1 = new schueler("Furkan", "Ates", "2BKI21", 1);
         $s1->ausgabe();
         $s1->setLastname("Meyer");
+        $s1->ausgabe();
+        $s1->versetzen();
         $s1->ausgabe();
 
         ?>	

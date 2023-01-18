@@ -46,9 +46,9 @@ class schueler {
         $this->setClass($class);
         $this->setYear($year);
     }
-    public function versetzen($year){
-        if($this->year == 1 OR $year == 2){
-			$this->year = $year;
+    public function versetzen(){
+        if($this->year == 1){
+			$this->year++;
 		}
     }
     public function ausgabe(){
