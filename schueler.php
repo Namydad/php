@@ -4,6 +4,7 @@ class schueler {
     private $lastname;
     private $class;
     private $year;
+	public $classes = ["2BKI11","2BKI12","2BKI21","2BKI22"];
 
 	public function getFirstname() {
 		return $this->firstname;
@@ -38,18 +39,22 @@ class schueler {
 	}
 
 
-    public function _construct($firstname, $lastname, $class, $year){
+
+    public function __construct($firstname, $lastname, $class, $year){
         $this->setFirstname($firstname);
         $this->setLastname($lastname);
         $this->setClass($class);
         $this->setYear($year);
     }
-    public function _versetzen(){
-        
+    public function versetzen($year){
+        if($this->year == 1 OR $year == 2){
+			$this->year = $year;
+		}
     }
-    public function _ausgabe(){
-        echo "Ich bin " + $this->firstname + $this->lastname + " Schueler der " + $this->class + " und bin nach den Ferien im " + $this->year + ".";
-    }
+    public function ausgabe(){
+        echo "Ich bin $this->firstname $this->lastname, Schueler der $this->class und bin nach den Ferien im Jahr $this->year.";
+		echo "<br>";
+	}
     
 
 }
