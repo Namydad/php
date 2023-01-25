@@ -1,5 +1,5 @@
 <?php
-class schueler {
+class person {
     private $firstname;
     private $lastname;
     private $class;
