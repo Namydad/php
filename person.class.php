@@ -1,7 +1,7 @@
 <?php
-class person {
-    private $firstname;
-    private $lastname;
+abstract class person {
+    protected $firstname;
+    protected $lastname;
     private $class;
     private $year;
 	public $classes = ["2BKI11","2BKI12","2BKI21","2BKI22"];
@@ -40,11 +40,9 @@ class person {
 
 
 
-    public function __construct($firstname, $lastname, $class, $year){
+    public function __construct($firstname, $lastname){
         $this->setFirstname($firstname);
         $this->setLastname($lastname);
-        $this->setClass($class);
-        $this->setYear($year);
     }
     public function versetzen(){
         if($this->year == 1){

@@ -1,10 +1,10 @@
 <?php
 
-require_once "person.test.php";
+require_once "person.class.php";
 
 class schueler extends person {
 	//vorname und nachname sowie deren getter/setter werden von person geerbt
-    private $class;
+	private $class;
     private $year;
 	public $classes = ["2BKI11","2BKI12","2BKI21","2BKI22"];
 
@@ -29,11 +29,17 @@ class schueler extends person {
     public function __construct($firstname, $lastname, $class, $year){
 		//parameter und elternkonstruktur aufrufen
 		parent::__construct($firstname, $lastname);
+
         $this->setClass($class);
         $this->setYear($year);
     }
     public function versetzen(){
-        if($this->year == 1){
+        if($this->year == 1 && $this->class == "2BKI11"){
+			$this->class = "2BKI21";
+			$this->year++;
+		}
+		elseif($this->year == 1 && $this->class == "2BKI12"){
+			$this->class = "2BKI22";
 			$this->year++;
 		}
     }

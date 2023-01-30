@@ -9,5 +9,6 @@
     "doki.wallpaper.path": "C:\\Users\\tobia\\Videos\\b2XL59s.png",
     "doki.wallpaper.enabled": true,
     "doki.sticker.css": "z-index:100;background-position:100% 97%",
-    "doki.sticker.path": "C:\\Users\\tobia\\Videos\\diy.png"
+    "doki.sticker.path": "C:\\Users\\tobia\\Videos\\diy.png",
+    "discord.enabled": true
 }
