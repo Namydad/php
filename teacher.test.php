@@ -16,9 +16,9 @@
 <h1>Test</h1>
 </form>
         <?php
-        require_once "schueler.class.php";
+        require_once "teacher.class.php";
 
-        $s1 = new schueler("Furkan", "Ates", "2BKI11", "");
+        $s1 = new schueler("Sven", "Etzler", "A15", "OStR");
         $s1->ausgabe();
         $s1->setLastname("Meyer");
         $s1->ausgabe();
