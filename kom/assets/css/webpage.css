@@ -1,0 +1,104 @@
+  /* Color Palettes
+  Matching Gradients
+
+  #702828
+  #8D3856
+  #99538C
+  #8E76C3
+  #639BEF
+  #00C1FF
+
+  Small Switch Palette
+
+  #702828
+  #F8EBEC
+  #AC717A
+
+  */
+  /*Here is the Font-Face for the Website and the HTML CSS for the whole Site*/
+  @font-face {
+    font-family: "EmblemaOne", Verdana, Helvetica, sans-serif;
+    src: url("assets/fonts/EmblemaOne-Regular.ttf") format("truetype");
+}
+html { 
+    font-family: "EmblemaOne", Verdana, Helvetica, sans-serif;
+    src: url("assets/fonts/EmblemaOne-Regular.ttf") format("truetype");
+}
+body {
+    background: #702828;
+    color: #F8EBEC;
+}
+header {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    order: 1;
+    width: 100%;   
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #470634;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.paragraph-text {
+    border: 4px solid white;
+    border-radius: 30px;
+    background: #2e0606;
+    font-size: 1rem;
+    line-height: 2.4rem;
+    margin-bottom: 1.6rem;
+    padding: 50px;
+    width: 100%;
+  }
+.title
+{
+  font-size: 4.4rem;
+  line-height: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+.description {
+    font-size: 2.6rem;
+}
+.important {
+  border: 4px solid red;
+}
+img {
+  width: 25%;
+  height: 25%;
+}
+footer {
+  background-color: #470634;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}

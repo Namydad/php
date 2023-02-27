@@ -1,0 +1,25 @@
+RewriteEngine on
+
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^instagram$ "https\:\/\/www\.instagram\.com\/yung_anglerhut\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^Instagram$ "https\:\/\/www\.instagram\.com\/yung_anglerhut\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^twitter$ "https\:\/\/twitter\.com\/realnamydad" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^Twitter$ "https\:\/\/twitter\.com\/realnamydad" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^steam$ "https\:\/\/steamcommunity\.com\/id\/Namydad\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^Steam$ "https\:\/\/steamcommunity\.com\/id\/Namydad\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^Github$ "https\:\/\/github\.com\/Namydad" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^github$ "https\:\/\/github\.com\/Namydad" [R=301,L]
