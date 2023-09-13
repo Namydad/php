@@ -1,5 +1,7 @@
 <?php
 //rechteck_class.php
+// Q: Can you explain this Code?
+// A: This is a class for a rectangle. It has two sides and can calculate the area and the circumference.
 
 class Rechteck {
     //Attributes (Member)
