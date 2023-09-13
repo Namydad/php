@@ -19,13 +19,12 @@
     */
 
     /*   */
-    $notenliste_a =
-    [
-        "Fred" = 1.3;
-        "Uli" = 2.7;
-        "Eva" = 3.5;
-        "Lea" = 1.9;
-    ]
+    $notenliste_a = [
+        "Fred" => 1.3,
+        "Uli" => 2.7,
+        "Eva" => 3.5,
+        "Lea" => 1.9
+    ];
 
 
 
