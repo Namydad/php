@@ -1,0 +1,15 @@
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\obj\Debug\net8.0\Parkhaus.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\obj\Debug\net8.0\Parkhaus.AssemblyInfoInputs.cache
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\obj\Debug\net8.0\Parkhaus.AssemblyInfo.cs
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\obj\Debug\net8.0\Parkhaus.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\obj\Debug\net8.0\Parkhaus.sourcelink.json
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\bin\Debug\net8.0\Parkhaus.exe
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\bin\Debug\net8.0\Parkhaus.deps.json
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\bin\Debug\net8.0\Parkhaus.runtimeconfig.json
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\bin\Debug\net8.0\Parkhaus.dll
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\bin\Debug\net8.0\Parkhaus.pdb
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\obj\Debug\net8.0\Parkhaus.dll
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\obj\Debug\net8.0\refint\Parkhaus.dll
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\obj\Debug\net8.0\Parkhaus.pdb
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\obj\Debug\net8.0\Parkhaus.genruntimeconfig.cache
+C:\xampp\htdocs\php\php\Presentation_Copilot\Parkhaus\obj\Debug\net8.0\ref\Parkhaus.dll
