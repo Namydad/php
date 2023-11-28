@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Parkhaus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fa6ca1d471170f6726b4e36d07201f1dcecb230")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6594409f6949462d382430bdc3cfecaea5d43828")]
 [assembly: System.Reflection.AssemblyProductAttribute("Parkhaus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Parkhaus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
