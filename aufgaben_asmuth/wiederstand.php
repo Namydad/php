@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
             <title>
-                Namydad
+                Tobias FISI23A
             </title>
-            <link rel="icon" type="image/png" href="bilder/Namydadcompanylogo.png">
 			<meta charset="utf-8">
     </head>
         <body>
