@@ -52,35 +52,23 @@ foreach (Fahrzeug f in fahrzeugList)
     Console.WriteLine();
 };
 
+/// Represents a vehicle.
 
-/// <summary>
-/// Represents an abstract base class for vehicles.
-/// </summary>
-abstract class Fahrzeug
+class Fahrzeug
 {
-    /// <summary>
     /// Gets or sets the license plate of the vehicle.
-    /// </summary>
     public string Kennzeichen { get; set; }
 
-    /// <summary>
     /// Gets or sets the color of the vehicle.
-    /// </summary>
     public string Farbe { get; set; }
 
-    /// <summary>
     /// Gets or sets the year of manufacture of the vehicle.
-    /// </summary>
     public int Baujahr { get; set; }
 
-    /// <summary>
     /// Gets or sets the manufacturer of the vehicle.
-    /// </summary>
     public string Hersteller { get; set; }
 
-    /// <summary>
-    /// Initializes a new instance of the <see cref="Fahrzeug"/> class with the specified license plate, color, year of manufacture, and manufacturer.
-    /// </summary>
+    /// Initializes a new instance of the <see cref="Fahrzeug"/> class.
     /// <param name="kennzeichen">The license plate of the vehicle.</param>
     /// <param name="farbe">The color of the vehicle.</param>
     /// <param name="baujahr">The year of manufacture of the vehicle.</param>
@@ -94,30 +82,11 @@ abstract class Fahrzeug
     }
 }
 
-/// <summary>
-/// Represents a car that inherits from the <see cref="Fahrzeug"/> class.
-/// </summary>
 class Auto : Fahrzeug
 {
-    /// <summary>
-    /// Gets or sets the number of doors of the car.
-    /// </summary>
     public int AnzahlTueren { get; set; }
-
-    /// <summary>
-    /// Gets or sets the number of wheels of the car.
-    /// </summary>
     public int AnzahlRaeder { get; set; }
 
-    /// <summary>
-    /// Initializes a new instance of the <see cref="Auto"/> class with the specified license plate, color, year of manufacture, manufacturer, number of doors, and number of wheels.
-    /// </summary>
-    /// <param name="kennzeichen">The license plate of the car.</param>
-    /// <param name="farbe">The color of the car.</param>
-    /// <param name="baujahr">The year of manufacture of the car.</param>
-    /// <param name="hersteller">The manufacturer of the car.</param>
-    /// <param name="anzahlTueren">The number of doors of the car.</param>
-    /// <param name="anzahlRaeder">The number of wheels of the car.</param>
     public Auto(string kennzeichen, string farbe, int baujahr, string hersteller, int anzahlTueren, int anzahlRaeder) : base(kennzeichen, farbe, baujahr, hersteller)
     {
         AnzahlTueren = anzahlTueren;
@@ -125,33 +94,15 @@ class Auto : Fahrzeug
     }
 }
 
-/// <summary>
-/// Represents a truck that inherits from the <see cref="Fahrzeug"/> class.
-/// </summary>
 class LKW : Fahrzeug
 {
-    /// <summary>
-    /// Gets or sets the number of wheels of the truck.
-    /// </summary>
     public int AnzahlRaeder { get; set; }
-
-    /// <summary>
-    /// Gets or sets the number of axles of the truck.
-    /// </summary>
     public int AnzahlAchsen { get; set; }
 
-    /// <summary>
-    /// Initializes a new instance of the <see cref="LKW"/> class with the specified license plate, color, year of manufacture, manufacturer, number of wheels, and number of axles.
-    /// </summary>
-    /// <param name="kennzeichen">The license plate of the truck.</param>
-    /// <param name="farbe">The color of the truck.</param>
-    /// <param name="baujahr">The year of manufacture of the truck.</param>
-    /// <param name="hersteller">The manufacturer of the truck.</param>
-    /// <param name="anzahlRaeder">The number of wheels of the truck.</param>
-    /// <param name="anzahlAchsen">The number of axles of the truck.</param>
     public LKW(string kennzeichen, string farbe, int baujahr, string hersteller, int anzahlRaeder, int anzahlAchsen) : base(kennzeichen, farbe, baujahr, hersteller)
     {
         AnzahlRaeder = anzahlRaeder;
         AnzahlAchsen = anzahlAchsen;
     }
 }
+
