@@ -1,0 +1,15 @@
+C:\xampp\htdocs\php\php\Parkhaus_GPT\bin\Debug\net8.0\Parkhaus_GPT.exe
+C:\xampp\htdocs\php\php\Parkhaus_GPT\bin\Debug\net8.0\Parkhaus_GPT.deps.json
+C:\xampp\htdocs\php\php\Parkhaus_GPT\bin\Debug\net8.0\Parkhaus_GPT.runtimeconfig.json
+C:\xampp\htdocs\php\php\Parkhaus_GPT\bin\Debug\net8.0\Parkhaus_GPT.dll
+C:\xampp\htdocs\php\php\Parkhaus_GPT\bin\Debug\net8.0\Parkhaus_GPT.pdb
+C:\xampp\htdocs\php\php\Parkhaus_GPT\obj\Debug\net8.0\Parkhaus_GPT.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\php\php\Parkhaus_GPT\obj\Debug\net8.0\Parkhaus_GPT.AssemblyInfoInputs.cache
+C:\xampp\htdocs\php\php\Parkhaus_GPT\obj\Debug\net8.0\Parkhaus_GPT.AssemblyInfo.cs
+C:\xampp\htdocs\php\php\Parkhaus_GPT\obj\Debug\net8.0\Parkhaus_GPT.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\php\php\Parkhaus_GPT\obj\Debug\net8.0\Parkhaus_GPT.sourcelink.json
+C:\xampp\htdocs\php\php\Parkhaus_GPT\obj\Debug\net8.0\Parkhaus_GPT.dll
+C:\xampp\htdocs\php\php\Parkhaus_GPT\obj\Debug\net8.0\refint\Parkhaus_GPT.dll
+C:\xampp\htdocs\php\php\Parkhaus_GPT\obj\Debug\net8.0\Parkhaus_GPT.pdb
+C:\xampp\htdocs\php\php\Parkhaus_GPT\obj\Debug\net8.0\Parkhaus_GPT.genruntimeconfig.cache
+C:\xampp\htdocs\php\php\Parkhaus_GPT\obj\Debug\net8.0\ref\Parkhaus_GPT.dll

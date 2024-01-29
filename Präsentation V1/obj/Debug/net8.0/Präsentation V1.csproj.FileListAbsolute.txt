@@ -1,0 +1,5 @@
+C:\xampp\htdocs\php\php\Präsentation V1\obj\Debug\net8.0\Präsentation V1.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\php\php\Präsentation V1\obj\Debug\net8.0\Präsentation V1.AssemblyInfoInputs.cache
+C:\xampp\htdocs\php\php\Präsentation V1\obj\Debug\net8.0\Präsentation V1.AssemblyInfo.cs
+C:\xampp\htdocs\php\php\Präsentation V1\obj\Debug\net8.0\Präsentation V1.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\php\php\Präsentation V1\obj\Debug\net8.0\Präsentation V1.sourcelink.json
